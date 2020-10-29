@@ -13,6 +13,13 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// // User input variables
+var enter;
+var confirmSymbol;
+var confirmNumber;
+var confirmUppercase;
+var confirmLowercase;
+
 // Array of Characters
 var symbolChar = ["!", "?", "@", "#", "$", "%", "&", "*", "<", ">", "+"];
 var numberChar = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
@@ -20,3 +27,4 @@ var upperChar = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"
 var lowerChar = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var allChar = [symbolChar , numberChar, upperChar, lowerChar];
 var randomPassword = [];
+
